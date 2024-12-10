@@ -1,0 +1,316 @@
+/*.html{
+    width:355px;
+    height:auto;
+    border:1px solid red;
+    padding:0.2%;
+    place-self: center;
+
+}
+
+.body{
+    display:flex;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr auto;
+    width:85%;
+    background-color: hsl(30, 38%, 92%);
+    position:relative;
+    left:5%;
+    border:1px solid green;
+    
+
+}
+
+.div{
+    border:1px solid blue;
+    width:100%;
+    height:200px;
+    position:relative;
+    left:0%;
+    top:8%;
+    font-family:playwriteHU;
+}
+
+
+.div1{
+    border:1px solid blue;
+    width:90%;
+    height:290px;
+    position:relative;
+    left:5%;
+    top:8%;
+    background-color: white;
+    font-family:playwriteHU;
+    text-wrap: balance;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.img{
+    width:90%;
+    height:180px;
+    position:relative;
+    top:10%;
+    left:5%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.span{
+    letter-spacing: 5pt;
+    font-size: 10px;
+    position:relative;
+    top:4%;
+    left:7%;
+    color: hsl(228, 12%, 48%);
+    font-family: fraunces;
+
+}
+
+.span2{
+    position:relative;
+    top:0%;
+    left:7%;
+    font-size: 9pt;
+    font-family:fraunces;
+    color:hsl(228, 12%, 48%);
+}
+
+.span3{
+    position:relative;
+    top:5%;
+    left:7%;
+    color:hsl(158, 36%, 37%);
+    font-size:20pt;
+    font-weight:bold;
+}
+
+.span4{
+    position:relative;
+    top:3%;
+    left:12%;
+    font-size: 9pt;
+    color:hsl(228, 12%, 48%);
+    
+}
+
+button{
+    position:relative;
+    top:1%;
+    left:7%;
+    width:85%;
+    height:12%;
+    border-radius: 5px;
+    background-color: hsl(158, 36%, 37%);
+    border:0px;
+    color:white;
+
+}
+
+button:hover{
+    cursor:pointer;
+    background-color: hsl(158, 79%, 13%);
+}
+
+
+/*@media only screen and (min-width:768px){
+    .html{
+        width:1200px;
+        height:100vh;
+    }
+    .body{
+        width:50%;
+        background-color: hsl(30, 38%, 92%);
+        border:1px solid green;
+        place-self: center;
+        height:70%;
+
+    }
+
+    .section{
+        display: grid;
+        border:1px solid yellow;
+        grid-template-columns: 50% 50%;
+        gap:0 0;
+    }
+
+    .div1{
+        height:340px;
+        
+    }
+
+ 
+
+    
+
+
+}*/
+
+@font-face {
+    font-family: 'Fraunces';
+    src: url('Fonts/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf') format('ttf');
+    font-weight: 100 900; /* Define weight range for variable font */
+    font-style: normal;
+  }
+  
+
+.html{
+    width:345px;
+    min-height: 100vh;
+    /*border:1px solid red;*/
+    place-self: center;
+}
+
+.body{
+    width:93%;
+    /*border:1px solid green;*/
+    background-color: hsl(30, 38%, 92%);
+    text-wrap: wrap;
+    min-height: 100vh;
+}
+
+ 
+.img{
+    width:85%;
+    
+    margin-top: 4%;
+    margin-left: 7%;
+    margin-bottom: 0%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.section{
+    display:grid;
+    grid-template-rows: 40% 300px;
+    /*border:1px solid blue;*/
+    gap:0 0;
+
+
+}
+
+.div{
+    background-color: white;
+    margin-top: -4.2%;
+    margin-left: 7%;
+    margin-right:7%;
+    margin-bottom: 5%;
+    width:85%;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+
+
+}
+
+.span{
+    letter-spacing: 5pt;
+    font-size: 10px;
+    color: hsl(228, 12%, 48%);
+    font-family:young serif;
+    margin-left: 6%;
+}
+
+.span0{
+    margin-left:6%; 
+    margin-top:2%; 
+    margin-bottom: 0%; 
+    color:hsl(212, 21%, 14%); 
+    font-size: 20pt; 
+    font-family: young serif;
+}
+
+.span2{
+    font-size: 9pt;
+    font-family:outfit;
+    color:hsl(228, 12%, 48%);
+    position:relative;
+    left:7%;
+    margin-right: 6%;
+    text-wrap: balance;
+    font-weight:300;
+
+    
+}
+
+.span3{
+    color:hsl(158, 36%, 37%);
+    font-size:20pt;
+    font-weight:bold;
+    margin-left: 7%;
+    font-family: outfit;
+}
+
+.span4{
+    font-size: 9pt;
+    color:hsl(228, 12%, 48%);
+    margin-left: 4%;
+    margin-bottom: 3%;
+    font-family: outfit;
+}
+
+
+
+button{
+    width:85%;
+    height:30px;
+    border-radius: 5px;
+    background-color: hsl(158, 36%, 37%);
+    border:0px;
+    color:white;
+    margin-left: 7.5%;
+
+}
+
+button:hover{
+    cursor:pointer;
+    background-color: hsl(158, 79%, 13%);
+}
+
+@media only screen and (min-width:768px){
+    .html{
+        min-width:768px;
+        max-width:1200px;
+    }
+
+    .section{
+        grid-template-columns: 300px 300px;
+        grid-template-rows: 370px;
+        gap:0 0;
+        position:relative;
+        left:5%;
+        
+    }
+
+    .span{
+        margin-left: 10%;
+    }
+    .span0{
+        margin-left: 10%;
+        width:70%;
+    }
+
+    .span2{
+        left:10%;
+        width:70%;
+    }
+    
+    .span3{
+        margin-left: 10%;
+        margin-bottom: 20px;
+    }
+
+    .div{
+        margin-top: 4%;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 7px;
+        border-top-right-radius: 7px;
+    }
+
+    .img{
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 7px;
+        height:342px;
+        margin-left: 23%;
+    }
+
+
+}
